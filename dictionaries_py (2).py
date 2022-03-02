@@ -45,6 +45,8 @@ for i in days:#loop
   if days[i]==31:
     print(i,end=" ")
 #d
+f=sorted([(i,j) for j,i in days.items()])
+print([(j,i) for i,j in f])
 
 #Q4
 #created a sample dictionary
